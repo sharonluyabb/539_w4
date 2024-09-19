@@ -1,3 +1,21 @@
+.gallery {
+   display: grid;
+   grid-template-columns: 250px 250px;
+   gap: 20px; 
+   border: 2px dashed black;
+   width: 90%;
+   justify-content: center;
+   align-items: stretch;
+ }
+
+ .gallery img{
+   width: 100%;
+ } 
+
+.gallery img:last-child{
+   grid-column: span 2;
+ }
+ 
 body{
     margin:5px;
     padding:5px;
